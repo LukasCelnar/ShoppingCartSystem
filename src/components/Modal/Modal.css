@@ -1,0 +1,132 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.modal__container {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    right: 10vw;
+    margin-bottom: 10vh;
+    min-height: calc(100vh - 10vh - 10vh);
+    background-color: rgba(85, 85, 85, 0.9);
+    color: #fff;
+}
+
+.modal__content {
+    margin: 3rem;
+}
+
+.modal__description {
+    display: flex;
+    align-items: center;
+    border: #fff 1px solid;
+    max-width: 60%;
+    margin: 3rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.modal__suit-img {
+    width: 8rem;
+}
+
+.modal__name {
+    margin: 0 5vw;
+    width: 33%;
+}
+
+.modal__total-price {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.modal__x-img {
+    width: 1.5rem;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    cursor: pointer;
+}
+
+.modal__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.modal__buttons > div {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 110%;
+    margin: 1rem 2rem;
+    border: #fff 1px solid;
+}
+
+@media (max-width: 1000px) {
+    .modal__name {
+        margin: 0 1.2rem;
+        width: 33%;
+    }
+
+    .modal__description {
+        max-width: 85%;
+    }
+
+    .modal__total-price {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .modal__description {
+        max-width: 100%;
+    }
+
+    .modal__buttons > div {
+        padding: 0.4rem;
+        font-size: 110%;
+        margin: 1rem 1rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .modal__suit-img {
+        width: 5rem;
+    }
+
+    .modal__buttons > div {
+        padding: 0.4rem;
+        font-size: 87.5%;
+        margin: 0.5rem 0.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .modal__content {
+        margin: 1rem;
+    }
+
+    .modal__description {
+        margin: 1rem 0;
+    }
+
+    .modal__container {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        min-height: 0;
+        bottom: 0;
+        overflow: scroll;
+    }
+}
+
+/* #00B1D5 */

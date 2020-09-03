@@ -6,9 +6,9 @@ import SuitListJson from './SuitList.json'
 const SuitList = () => {
 
     const renderSuits = () => {
-        return SuitListJson.map(suit => {
+        return SuitListJson.map((suit, i) => {
             return <Suit 
-                    key={suit.id} 
+                    key={i} 
                     name={suit.name}
                     price={suit.price}
                     id={suit.id}

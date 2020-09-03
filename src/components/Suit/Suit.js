@@ -1,7 +1,16 @@
 import React from 'react';
-import './Suit.css'
+import './Suit.css';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../../actions';
 
-const Suit = ({ name, price, id }) => {
+const Suit = (props) => {
+    const dispatch = useDispatch()
+
+    const { name, price, id } = props
+
+    const onAddToCartClick = (props) => {
+        dispatch(addToCart(props))
+    }
 
     return (
         <div className="suit">
@@ -9,7 +18,7 @@ const Suit = ({ name, price, id }) => {
             <div className="suit__description">
                 <div className="suit__name">{name}</div>
                 <div className="suit__price">{`${price}0 €`}</div>
-                <div className="suit__btn">ADD TO CART</div>
+                <div className="suit__btn" onClick={() => onAddToCartClick(props)}>ADD TO CART</div>
             </div>
         </div>
     )
