@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Mix-and-Match tailored fit",
+        "price": 69.90
+    },
+    {
+        "id": 2,
+        "name": "Suit jacket - regular fit",
+        "price": 29.90
+    },
+    {
+        "id": 3,
+        "name": "Tailored jacket - body fit",
+        "price": 49.90
+    },
+    {
+        "id": 4,
+        "name": "Business jacket - regular fit",
+        "price": 19.90
+    },
+    {
+        "id": 5,
+        "name": "Tailored - body fit",
+        "price": 19.90
+    },
+    {
+        "id": 6,
+        "name": "Linen jacket - regular fit",
+        "price": 39.90
+    },
+    {
+        "id": 7,
+        "name": "Tailored - regular fit - check",
+        "price": 29.90
+    },
+    {
+        "id": 8,
+        "name": "Suit jacket - body fit",
+        "price": 39.90
+    },
+    {
+        "id": 9,
+        "name": "Suit jacket - tailored - wool blend",
+        "price": 69.90
+    },
+    {
+        "id": 10,
+        "name": "Tailored wool jacket - regular fit",
+        "price": 99.90
+    },
+    {
+        "id": 11,
+        "name": "Suit jacket - slim fit - pinstripe",
+        "price": 29.90
+    },
+    {
+        "id": 12,
+        "name": "Tailored jacket - regular fit",
+        "price": 29.90
+    },
+    {
+        "id": 13,
+        "name": "Suit jacket - body fit",
+        "price": 29.90
+    },
+    {
+        "id": 14,
+        "name": "Suit jacket - tailored fit",
+        "price": 29.90
+    }
+]

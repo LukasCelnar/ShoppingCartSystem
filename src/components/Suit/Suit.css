@@ -1,0 +1,28 @@
+.suit {
+    width: 15rem;
+    margin: 0.5rem;
+}
+
+.suit__img {
+    max-width: 100%;
+}
+
+.suit__description {
+    text-align: center;
+}
+
+.suit__price {
+    color: #e30512;
+    font-weight: 700;
+}
+
+.suit__btn {
+    width: 50%;
+    border: 1px #000 solid;
+    margin: 0.25rem auto;
+    cursor: pointer;
+}
+
+.suit__btn:hover {
+    border-color: #e30512;
+}

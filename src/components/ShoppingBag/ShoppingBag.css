@@ -1,0 +1,20 @@
+.shopping-bag {
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.shopping-bag__img {
+    height: 100%;
+    width: 100%;
+}
+
+.shopping-bag__count {
+    position: absolute;
+    top: 57.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
