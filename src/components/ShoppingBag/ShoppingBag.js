@@ -18,10 +18,10 @@ const ShoppingBag = () => {
     }, [])
 
     useEffect(() => {
-        localStorage.setItem('cart', JSON.stringify(cart));
-
-        // checks if [] in localStorage is empty
-        if (localStorage.getItem('cart') === '[]') {
+        
+        if (cart.length || localStorage.getItem('cart') === null) {
+            localStorage.setItem('cart', JSON.stringify(cart));
+        } else {
             localStorage.clear()
             console.log("clearing")
         }

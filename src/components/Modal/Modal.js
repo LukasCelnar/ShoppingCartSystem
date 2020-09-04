@@ -11,7 +11,9 @@ const Modal = ({ onSingleDeleteClick, onDeleteAllClick }) => {
 
     const renderModalContent = () => {
 
-        if (cart.length === 0) { history.push('/') }
+        if (cart.length === 0) { 
+            history.push('/') 
+        }
 
         return cart.map((suit, i) => {
             totalPrice = totalPrice + suit.price

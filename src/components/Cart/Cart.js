@@ -15,12 +15,10 @@ const Cart = () => {
     }
 
     return (
-        <div>
-            <Modal 
+        <Modal 
             onDeleteAllClick={onDeleteAllClick} 
             onSingleDeleteClick={onSingleDeleteClick} 
-            />
-        </div>
+        />
     )
 }
 
