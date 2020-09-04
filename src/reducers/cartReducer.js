@@ -11,6 +11,8 @@ export default (state = [], action) => {
             return state.filter((item, i) => {
                 return action.payload !== i
             })
+        case 'LOAD_CART_ITEMS':
+            return action.payload
         default:
             return state;
     }

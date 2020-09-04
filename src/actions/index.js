@@ -17,3 +17,10 @@ export const deleteAllItems = () => {
         type: 'DELETE_ALL_ITEMS'
     }
 }
+
+export const loadCartItems = (items) => {
+    return {
+        type: 'LOAD_CART_ITEMS',
+        payload: items
+    }
+}
