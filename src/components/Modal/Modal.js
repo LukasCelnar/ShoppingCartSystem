@@ -6,7 +6,7 @@ import './Modal.css';
 
 const Modal = ({ onSingleDeleteClick, onDeleteAllClick }) => {
     const cart = useSelector(state => state.cart)
-
+    //
     let totalPrice = 0
 
     const renderModalContent = () => {

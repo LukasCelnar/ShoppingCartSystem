@@ -11,7 +11,6 @@ const ShoppingBag = () => {
     useEffect(() => {
         if (localStorage.length) {
             dispatch(loadCartItems(JSON.parse(localStorage.getItem('cart'))));
-            console.log("loading")
         }
 
         // eslint-disable-next-line
@@ -23,7 +22,6 @@ const ShoppingBag = () => {
             localStorage.setItem('cart', JSON.stringify(cart));
         } else {
             localStorage.clear()
-            console.log("clearing")
         }
 
     }, [cart])
